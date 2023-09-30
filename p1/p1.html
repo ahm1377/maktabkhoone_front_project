@@ -11,80 +11,77 @@
     <div id="page_top"></div>
 
         <img src="https://wallpapercave.com/dwp1x/wp7135247.jpg" id="banner">
-    
-        <div id="navbar">
-            <span><a href="#modal_contact">ارتباط با من</a></span>
-            <span><a href="#modal_education">رزومه من</a></span>
-            <span><a id="postlist" href="#tmlist">پست ها</a></span>
-        </div>
         
-    <a id="jump_top" href="#page_top"></a>
+        <section class="secSlider">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img1.jpg" style="width:100%; height: 400px;">
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="img2.jpg" style="width:100%; height: 400px;">
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="img3.jpg" style="width:100%; height: 400px;">
+                </div>
+            <!-- دکمه‌های جلو و عقب -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        
+            <!-- نقاط انتخاب اسلاید -->
+            <div id="dots" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+
+        <div id="navbar">
+            <span>
+                <a href="#modal_contact">ارتباط با من</a>
+            </span>
+            <span>
+                <a href="#modal_education">رزومه من</a>
+            </span>
+            <span>
+                <a id="postlist" href="#tmlist">پست ها</a>
+            </span>
+        </div>    
+    <a class="slowupdown" id="jump_top" href="#page_top"></a>
 
     <div class="modal_wrapper" id="modal_contact">
-    <div class="modal">
-        <span class="close_modal"><a href="#close_modal">X</a></span>
-        سلام من علی حسن مصفا هستم <br>
-        شما میخوانید برای تماس با من به من ایمیل بدهید <br>
-        ایمیل من : <a href="mailto:alimosaffa.18@gmail.com" style="color: darkslategray;">alimosaffa.18@gmail.com</a>
-    </div>
+        <div class="modal">
+            <span class="close_modal"><a href="#close_modal">X</a></span>
+            سلام من علی حسن مصفا هستم <br>
+            شما میخوانید برای تماس با من به من ایمیل بدهید <br>
+            ایمیل من : <a href="mailto:alimosaffa.18@gmail.com" style="color: darkslategray;">alimosaffa.18@gmail.com</a>
+        </div>
     </div>
     <div class="modal_wrapper" id="modal_education">
-    <div class="modal">
-        <span class="close_modal"><a href="#close_modal">X</a></span> 
-        من دوره های پایتون مقدماتی و پیشرفته و git را گذرانده ام   
+        <div class="modal">
+            <span class="close_modal">
+                <a href="#close_modal">X</a>
+            </span> 
+            <p>    من دوره های پایتون مقدماتی و پیشرفته و git را گذرانده ام   </p>
+        </div>
     </div>
-    </div>
-
-
-    <div class="slideshow-container" style="z-index: 9999999999;">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="img1.jpg" style="width:100%">
-          <div class="text">Caption Text</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="img2.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="img3.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
-        </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
-      
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
-    
-
-
+            
     <div  class="mlist" id="tmlist" id="mlist" >
-         <div >
-            <ul>
-                <li><a href="#exprience">تجربه</a></li>
-                <li><a href="#edication">مدارک</a></li>
-                <li><a href="#cv">رزومه</a></li>
-                <li><a href="#contact">مخاطب</a></li>
-                <li style="background-color: aqua;"><a href="#mlist" style="color: #000000; font-size: large;">X</a></li>
-            </ul>   
-        </div>
-    </div>
-    <a id="jump_down" href="#down_target">مطالب اصلی</a>
-    <div id="wrapper"> 
+        <div >
+           <ul>
+               <li><a href="#exprience">تجربه</a></li>
+               <li><a href="#edication">مدارک</a></li>
+               <li><a href="#cv">رزومه</a></li>
+               <li><a href="#contact">مخاطب</a></li>
+               <li style="background-color: aqua;"><a href="#mlist" style="color: #000000; font-size: large;">X</a></li>
+           </ul>   
+       </div>
+   </div>  
+
+    <a id="jump_down" href="#down_target" style="z-index: 10;">مطالب اصلی</a>
+    <div id="wrapper" style="z-index: 10;"> 
         <div id="down_target"></div>
         <div id="menu">
             <ul>
@@ -117,8 +114,9 @@
             </span>
         </div>
     </div>    
-        <div id="footer">
+        <div id="footer" style="z-index: 10;">
             copyright 2023 &copy; <a href="https://maktabkhooneh.org/" target="_blank">maktabkhooneh</a>
-        </div><script src="p1.js"></script>   
+        </div>
+        <script src="p1.js"></script>   
     </body>
 </html>
